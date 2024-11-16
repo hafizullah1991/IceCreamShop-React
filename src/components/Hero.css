@@ -1,0 +1,33 @@
+.hero{
+    height: 100vh;
+    background-image: url("../assets/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    text-align: center;
+    color: rgb(88, 94, 80);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+  }
+  h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+  }
+  .order-button {
+    font-size: 18px;
+    padding: 14px 30px;
+    background-color: #32CD32;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .order-button:hover {
+    background-color: #ff79a7;
+  }

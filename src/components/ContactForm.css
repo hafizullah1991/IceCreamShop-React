@@ -1,0 +1,87 @@
+.contact-form-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.contact-layout {
+  display: flex; /* Flexbox to make sections side by side */
+  justify-content: space-between; /* Creates space between form and location */
+  gap: 20px; /* Adds space between the form and location section */
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.contact-layout h2 {
+  width: 100%; /* Ensures h2 takes full width */
+  text-align: center;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.contact-form, .location {
+  flex: 1; /* Makes both sections take equal space */
+  min-width: 300px; /* Minimum width to ensure responsiveness */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+ text-align: left;
+
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color:  #32CD32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: auto;
+  align-self:center;
+}
+
+.contact-form button:hover {
+  background-color: #556B2F;
+}
+
+/* Location section styles */
+.location {
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.location h3 {
+  margin-top: 0;
+}
+
+.location p {
+  margin: 5px 0;
+}

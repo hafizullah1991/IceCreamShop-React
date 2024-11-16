@@ -1,0 +1,23 @@
+.about-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    gap: 44px;
+   
+}
+.feature-box{
+    width: 100%;
+    height: auto;
+    margin: 0px 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.feature-box p{
+    font-size: 25px;
+    
+}
+.feature-box h3{
+    font-size: 30px;
+    margin-top: 29px;
+}

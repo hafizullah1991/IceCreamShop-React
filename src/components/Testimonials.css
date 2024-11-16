@@ -1,0 +1,9 @@
+.testimonials-section{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 300px;
+}

@@ -1,0 +1,39 @@
+footer {
+    background-color: #41a931; /* LimeGreen background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content {
+    margin-bottom: 10px; /* Space between social media links and copyright text */
+}
+
+.social-media ul {
+    display: flex; /* Display list items in a row */
+    justify-content: center; /* Center the list */
+}
+
+.social-media li {
+    margin: 0 15px; /* Space between social media links */
+    list-style: none;
+
+}
+
+.social-link {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 20px; /* Increase font size */
+    margin:0; 
+}
+
+.social-link:hover {
+    color: #FFD700 ;/* Slightly change opacity on hover for effect */
+}
+
+.footer p {
+    margin-top: 10px; /* Space above the copyright text */
+    color: whitesmoke;
+   
+}
